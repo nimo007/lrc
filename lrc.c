@@ -10,7 +10,6 @@ static int head_parse(const u8 *buff, int *offset)
 	char *c;
 	const u8 *p = buff;
 	char lyric_buff[DATALEN];
-	//char tmp[10];
 
 	c = strchr(p, ']');
 	*c = '\0';
